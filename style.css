@@ -1,0 +1,38 @@
+@font-face {
+  font-family: spongebobFont; /* set name */
+  src: url(Krabby\ Patty.ttf); /* url of the font */
+}
+
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcokSFd1mi5XlbmH8X9GSbM_Wuu7cB8wUPQhPRPxUPsA&s=10');
+    font-family: spongebobFont, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.sketch {
+    display:block;
+    text-align: left;
+    size: 55%;
+}
+canvas {
+  width: 50% !important;
+  height: auto !important;
+  max-width: 100%;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(0, 157, 255,50%);
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically on mobile */
+  }
+}
+.hidden {
+  display: none;
+}
+#myImage {
+    vertical-align: middle;
+}
+
+
